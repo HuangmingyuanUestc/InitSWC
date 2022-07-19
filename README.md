@@ -1,5 +1,5 @@
 # SWC初始化工具
-> 作者：黄明源
+> 作者：Mingyuan Huang
 
 # 1 使用方法
 1. 下载：[wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) ，或在`asset`文件夹下载win64安装包
@@ -19,10 +19,10 @@ NEED_DOWNLOAD_SHEET = True
 
 # 2 功能列表
 ## 显性需求功能
-- [x] 下载代码
-- [x] 下载报告
+- [x] 下载代码（仅支持单一文件）
+- [x] 下载报告（仅支持网页打印）
 - [x] 复制示例表格到指定位置
-- [ ] 初始化示例表格的finding内容
+- [x] 初始化示例表格的finding内容(仅支持h5，h6标题)
 ## 隐性需求
 - [x] 显性需求功能的开关配置
 - [x] 下载报告
